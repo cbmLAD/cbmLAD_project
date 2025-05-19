@@ -1,0 +1,26 @@
+﻿  Testing Multi-Class with Confusion Matrix.cpp
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(70): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(133): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(141): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(162): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(165): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(176): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(183): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(185): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(190): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(194): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(197): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(204): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(206): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(263): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(267): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(287): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing multi-class with confusion matrix\testing multi-class with confusion matrix\testing multi-class with confusion matrix.cpp(289): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  1 of 596 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Testing Multi-Class with Confusion Matrix.vcxproj -> C:\Users\Osama\source\repos\Testing Multi-Class with Confusion Matrix\Release\Testing Multi-Class with Confusion Matrix.exe

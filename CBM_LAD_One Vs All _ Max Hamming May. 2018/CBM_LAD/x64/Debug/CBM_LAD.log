@@ -1,0 +1,43 @@
+﻿  PatternGeneration.cpp
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(223): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(268): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(298): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(311): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(341): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(359): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(380): warning C4244: 'argument': conversion from 'unsigned __int64' to 'double', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(444): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(459): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(460): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(484): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(499): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(514): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(537): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(552): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(559): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(620): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(658): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(675): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(692): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(735): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(750): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(801): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(820): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(852): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(854): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(859): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(881): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(898): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(920): warning C4244: 'argument': conversion from 'unsigned __int64' to 'double', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(974): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1012): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1020): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1023): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1034): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1039): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1086): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1110): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(321): warning C4101: 'SumOfElementsInMandatoryColumns': unreferenced local variable
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1141): warning C4101: 'my_count': unreferenced local variable
+c:\users\osama\dropbox\cbmlad\codes\cbm_lad_one vs all _ max hamming may. 2018\cbm_lad\patterngeneration.cpp(1164): warning C4101: 'my_count': unreferenced local variable
+  CBM_LAD.vcxproj -> C:\Users\Osama\Dropbox\cbmLAD\Codes\CBM_LAD_One Vs All _ Max Hamming May. 2018\x64\Debug\CBM_LAD.exe

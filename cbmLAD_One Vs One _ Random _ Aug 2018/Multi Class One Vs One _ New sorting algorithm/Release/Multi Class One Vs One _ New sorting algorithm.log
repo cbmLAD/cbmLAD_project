@@ -1,0 +1,118 @@
+﻿  Multi Class One Vs One _ New sorting algorithm.cpp
+Multi Class One Vs One _ New sorting algorithm.cpp(87): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(101): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(105): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(120): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(167): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(176): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(193): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(200): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(209): warning C4018: '>': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(222): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(231): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(258): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(275): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(295): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(305): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(317): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(331): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(351): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(391): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(399): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(448): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(451): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(478): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(485): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(504): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(508): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(520): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(523): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(544): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(548): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(593): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(595): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(601): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(642): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(647): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(649): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(654): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(703): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(764): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(767): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(797): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(849): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(851): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(873): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(893): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(904): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(926): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(966): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(972): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(996): warning C4305: 'initializing': truncation from 'double' to 'float'
+Multi Class One Vs One _ New sorting algorithm.cpp(997): warning C4305: 'initializing': truncation from 'double' to 'float'
+Multi Class One Vs One _ New sorting algorithm.cpp(1037): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1039): warning C4305: '=': truncation from 'double' to 'float'
+Multi Class One Vs One _ New sorting algorithm.cpp(1047): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1057): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1089): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1092): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1101): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1107): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1116): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1123): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(1140): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1163): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1174): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1187): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1214): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1224): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1244): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1261): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1288): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1295): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1301): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1310): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1319): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1368): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1370): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1392): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1397): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1404): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1441): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1450): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(1481): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1483): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1507): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1528): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1540): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1562): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1607): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+Multi Class One Vs One _ New sorting algorithm.cpp(1613): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1625): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1634): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1638): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1644): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1677): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1697): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1709): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1725): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1733): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1736): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1751): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(1760): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(806): warning C4101: 'SumOfElementsInMandatoryColumns': unreferenced local variable
+Multi Class One Vs One _ New sorting algorithm.cpp(2088): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(2090): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(2182): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(2184): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(2181): warning C4101: 'my_count': unreferenced local variable
+Multi Class One Vs One _ New sorting algorithm.cpp(2206): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(2208): warning C4018: '<': signed/unsigned mismatch
+Multi Class One Vs One _ New sorting algorithm.cpp(2205): warning C4101: 'my_count': unreferenced local variable
+Multi Class One Vs One _ New sorting algorithm.cpp(2293): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  Generating code
+  1 of 1514 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Multi Class One Vs One _ New sorting algorithm.vcxproj -> C:\Users\Osama\source\repos\Multi Class One Vs One _ New sorting algorithm - New Cont Alg\Release\Multi Class One Vs One _ New sorting algorithm.exe

@@ -1,0 +1,27 @@
+﻿  Testing one Vs one.cpp
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(71): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(104): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(131): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(139): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(161): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(164): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(175): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(182): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(189): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(193): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(196): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(203): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(205): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(221): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(226): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(230): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(233): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(240): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(242): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(314): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(323): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(345): warning C4018: '<': signed/unsigned mismatch
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(347): warning C4018: '<': signed/unsigned mismatch
+  Testing one Vs one.vcxproj -> C:\Users\Osama\source\repos\Testing one Vs one\Debug\Testing one Vs one.exe

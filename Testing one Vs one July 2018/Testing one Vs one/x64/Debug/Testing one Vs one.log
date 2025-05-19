@@ -1,0 +1,13 @@
+﻿  Testing one Vs one.cpp
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(71): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(195): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(198): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(205): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(207): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(232): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(235): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(242): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(244): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(334): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(343): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  Testing one Vs one.vcxproj -> C:\Users\Osama\source\repos\Testing one Vs one\x64\Debug\Testing one Vs one.exe

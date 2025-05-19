@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  Testing one Vs one.cpp
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(71): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(195): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(198): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(205): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(207): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(232): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(235): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(242): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(244): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(334): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\testing one vs one\testing one vs one\testing one vs one.cpp(343): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  Generating code
+  1 of 596 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Testing one Vs one.vcxproj -> C:\Users\Osama\source\repos\Testing one Vs one\x64\Release\Testing one Vs one.exe

@@ -1,0 +1,114 @@
+﻿  stdafx.cpp
+  CBM_LAD.cpp
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(95): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(114): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(150): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(157): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(193): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(219): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(236): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(255): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(281): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(289): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(340): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(343): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(366): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(371): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(376): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(406): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(415): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(419): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(432): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(436): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(448): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(451): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(472): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(476): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(521): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(523): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(529): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(570): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(575): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(577): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(582): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(631): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(692): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(695): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(725): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(777): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(779): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(801): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(820): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(831): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(853): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(899): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(905): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(929): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(930): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(970): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(972): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(980): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(990): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1022): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1025): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1034): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1040): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1049): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1056): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1073): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1096): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1107): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1120): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1147): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1157): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1177): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1194): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1221): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1228): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1234): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1243): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1252): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1301): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1303): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1325): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1330): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1337): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1374): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1383): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1414): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1416): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1440): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1460): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1472): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1494): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1538): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1544): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1558): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1567): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1571): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1577): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1610): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1626): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1638): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1650): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1666): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1678): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1687): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1717): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(1720): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(734): warning C4101: 'SumOfElementsInMandatoryColumns': unreferenced local variable
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2010): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2012): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2106): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2108): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2105): warning C4101: 'my_count': unreferenced local variable
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2130): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2132): warning C4018: '<': signed/unsigned mismatch
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2129): warning C4101: 'my_count': unreferenced local variable
+c:\users\dell\documents\visual studio 2017\projects\cbm_lad\cbm_lad\cbm_lad.cpp(2219): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  Generating Code...
+  CBM_LAD.vcxproj -> c:\users\dell\documents\visual studio 2017\Projects\CBM_LAD\Debug\CBM_LAD.exe
+  CBM_LAD.vcxproj -> c:\users\dell\documents\visual studio 2017\Projects\CBM_LAD\Debug\CBM_LAD.pdb (Partial PDB)

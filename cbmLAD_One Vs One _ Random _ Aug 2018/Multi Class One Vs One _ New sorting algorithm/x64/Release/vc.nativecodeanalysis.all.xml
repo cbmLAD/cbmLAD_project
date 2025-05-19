@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+      <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+      <LINE>271</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'p' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '175' of 'c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\multi class one vs one _ new sorting algorithm.cpp'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+      <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+      <LINE>1965</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'retIndex'.</DESCRIPTION>
+    <FUNCTION>FindMinimalNumerical</FUNCTION>
+    <DECORATED>?FindMinimalNumerical@@YAHV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>1918</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1921</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1925</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1926</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1928</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1930</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1933</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1933</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1952</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'retIndex' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1953</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1954</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1954</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;v_ret.size()&amp;&amp;!indexFound' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1921</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\osama\source\repos\multi class one vs one _ new sorting algorithm - new contradiction  alg\multi class one vs one _ new sorting algorithm\</FILEPATH>
+        <FILENAME>multi class one vs one _ new sorting algorithm.cpp</FILENAME>
+        <LINE>1965</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'retIndex' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

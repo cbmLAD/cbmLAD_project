@@ -1,0 +1,15 @@
+﻿  Classification One Vs. One.cpp
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(122): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(125): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(132): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(134): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(159): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(162): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(169): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\osama\source\repos\classification one vs. one\classification one vs. one\classification one vs. one.cpp(171): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  Generating code
+  1 of 337 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Classification One Vs. One.vcxproj -> C:\Users\Osama\source\repos\Classification One Vs. One\x64\Release\Classification One Vs. One.exe
