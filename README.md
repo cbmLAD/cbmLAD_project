@@ -14,7 +14,7 @@
 
 ### 📂 Directory Structure
 
-A folder named `cbmLAD` must be created on the **C drive**: C:\cbmLAD\
+A folder named `cbmLAD` must be created on the **C drive**: `C:\\cbmLAD`
 
 This directory will include:
 - Input files (3 required `.txt` files)
@@ -66,5 +66,41 @@ Same format as `test_data.txt`, **without**:
 Output `.txt` files will be automatically generated in the same folder (`C:\\cbmLAD`) during program execution.
 """
 
+# Updating the README to include a section explaining OVA and OVO with the images and related notes
 
+readme_update = """
+---
 
+## 🧠 Pattern Generation Methods: One-vs-All (OVA) and One-vs-One (OVO)
+
+cbmLAD supports two major strategies for handling **multiclass** problems:
+
+### 🟢 One-vs-All (OVA)
+
+- Each class is compared **against all other classes combined**.
+- Patterns are generated per class as:
+  - \(PP1^+, PP1^-, PP2^+, PP2^-, \ldots\)
+
+**Image example:**
+![OVA Illustration](895c75ef-dee8-4cdf-9967-98c0f1d13dcb.png)
+
+---
+
+### 🔵 One-vs-One (OVO)
+
+- Each class is compared **against one other class at a time**.
+- Patterns are generated for each binary comparison:
+  - \(PP1vs2, PP2vs1, PP1vs3, PP3vs1, \ldots\)
+
+**Image example:**
+![OVO Illustration](011a9310-4c04-41f6-bf47-a1944d3742ae.png)
+
+---
+
+### 🔎 Notes
+
+- **Binary classes:** Only the **OVA** method is used.
+- **Multiclass:** Both **OVA** and **OVO** methods can be applied.
+
+To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
+"""
