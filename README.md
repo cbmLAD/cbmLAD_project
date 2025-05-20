@@ -73,8 +73,8 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 
 - Each class is compared **against all other classes combined**.
 - Patterns are generated per class as:
-  - \(PP1^+, PP1^-, PP2^+, PP2^-, \ldots\)
-
+  - $P_1^+, P_1^-, P_2^+, P_2^-, \\ldots$
+    
 ![OVA Illustration](OVA.png)
 
 ---
@@ -95,4 +95,3 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 - **Multiclass:** Both **OVA** and **OVO** methods can be applied.
 
 To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
-"""
