@@ -1,4 +1,3 @@
-readme_content = """
 # cbmLAD: Logical Analysis of Data for Condition-Based Maintenance
 
 **cbmLAD** is a software tool implementing the **Logical Analysis of Data (LAD)** methodology, tailored for **Condition-Based Maintenance (CBM)** applications. It leverages symbolic logic and data pattern mining to detect failure signatures and classify machine conditions from sensor data.
