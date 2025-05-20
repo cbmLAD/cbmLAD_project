@@ -75,7 +75,6 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 - Patterns are generated per class as:
   - \(PP1^+, PP1^-, PP2^+, PP2^-, \ldots\)
 
-**Image example:**
 ![OVA Illustration](OVA.png)
 
 ---
@@ -86,7 +85,6 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 - Patterns are generated for each binary comparison:
   - \(PP1vs2, PP2vs1, PP1vs3, PP3vs1, \ldots\)
 
-**Image example:**
 ![OVO Illustration](OVO.png)
 
 ---
