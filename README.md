@@ -64,12 +64,6 @@ Same format as `test_data.txt`, **without**:
 ## 📤 Output Files
 
 Output `.txt` files will be automatically generated in the same folder (`C:\\cbmLAD`) during program execution.
-"""
-
-# Updating the README to include a section explaining OVA and OVO with the images and related notes
-
-readme_update = """
----
 
 ## 🧠 Pattern Generation Methods: One-vs-All (OVA) and One-vs-One (OVO)
 
@@ -82,7 +76,7 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
   - \(PP1^+, PP1^-, PP2^+, PP2^-, \ldots\)
 
 **Image example:**
-![OVA Illustration](895c75ef-dee8-4cdf-9967-98c0f1d13dcb.png)
+![OVA Illustration](OVA.png)
 
 ---
 
@@ -93,7 +87,7 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
   - \(PP1vs2, PP2vs1, PP1vs3, PP3vs1, \ldots\)
 
 **Image example:**
-![OVO Illustration](011a9310-4c04-41f6-bf47-a1944d3742ae.png)
+![OVO Illustration](OVO.png)
 
 ---
 
