@@ -1,6 +1,6 @@
 # cbmLAD: Logical Analysis of Data for Condition-Based Maintenance
 
-**cbmLAD** is a software tool implementing the **Logical Analysis of Data (LAD)** methodology, tailored for **Condition-Based Maintenance (CBM)** applications. It leverages symbolic logic and data pattern mining to detect failure signatures and classify machine conditions from sensor data.
+**cbmLAD** is a software tool implementing the **Logical Analysis of Data (LAD)** methodology, tailored for **Condition-Based Maintenance** applications. It leverages symbolic logic and data pattern mining to detect failure signatures and classify machine conditions from sensor data.
 
 ## 🔧 Core Components
 
@@ -45,7 +45,7 @@ Three input files must be created before running the software:
 
 **Important Notes:**
 - First cell in row 2 (top-left) must be `3`.
-- Class values **must not include 0**.  
+- Class labels **must not include 0**.  
   Example: If original classes are `{0, 1, 2}`, change to `{1, 2, 3}`.
 
 #### 2. `test_data.txt`
@@ -65,14 +65,6 @@ Same format as `test_data.txt`, **without**:
 
 Output `.txt` files will be automatically generated in the same folder (`C:\\cbmLAD`) during program execution.
 """
-
-# Saving the README file
-readme_path = "/mnt/data/README_cbmLAD.md"
-with open(readme_path, "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-readme_path
-
 
 
 
