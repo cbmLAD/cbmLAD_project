@@ -1,15 +1,79 @@
+readme_content = """
 # cbmLAD: Logical Analysis of Data for Condition-Based Maintenance
 
-cbmLAD is a software tool implementing the Logical Analysis of Data (LAD) methodology, designed specifically for condition-based maintenance applications.
+**cbmLAD** is a software tool implementing the **Logical Analysis of Data (LAD)** methodology, tailored for **Condition-Based Maintenance (CBM)** applications. It leverages symbolic logic and data pattern mining to detect failure signatures and classify machine conditions from sensor data.
 
-This tool combines logic, combinatorics, and optimization to detect patterns in binary datasets and support decision-making in predictive maintenance scenarios.
+## 🔧 Core Components
 
-Key components of cbmLAD:
+- **Boolean Logic**: Binarization and threshold generation of features.
+- **Combinatorics**: Pattern selection from binary data.
+- **Optimization**: Uses Ant Colony Optimization (ACO) to find optimal pattern sets.
 
-Boolean Logic: Feature binarization and threshold generation for converting continuous variables into binary form.
+---
 
-Combinatorics: Pattern selection based on characteristic combinations of binary features.
+## 📁 CBM–LAD Instructions
 
-Optimization: Pattern optimization using Ant Colony Optimization (ACO) algorithms to improve solution quality.
+### 📂 Directory Structure
 
-cbmLAD is primarily used in industrial maintenance contexts, offering interpretable models and efficient pattern discovery.
+A folder named `cbmLAD` must be created on the **C drive**: C:\cbmLAD\
+
+This directory will include:
+- Input files (3 required `.txt` files)
+- Output files (automatically generated during execution)
+
+### 📥 Input Files
+
+Three input files must be created before running the software:
+
+#### 1. `raw_data.txt`
+
+**Columns:**
+- Column 1: Class labels (must not include `0`)
+- Remaining columns: Feature values  
+  (Nominal values must be **converted to discrete integers**)
+
+**Rows:**
+- Row 1: Feature names
+- Row 2: Feature types:
+
+| Type | Description |
+|------|-------------|
+| 1    | Nominal (e.g., red, green → must be converted to numbers) |
+| 2    | Binary (0 or 1) |
+| 3    | Numerical (integer or real numbers) |
+
+- Remaining rows: Data samples
+
+**Important Notes:**
+- First cell in row 2 (top-left) must be `3`.
+- Class values **must not include 0**.  
+  Example: If original classes are `{0, 1, 2}`, change to `{1, 2, 3}`.
+
+#### 2. `test_data.txt`
+
+Same format as `raw_data.txt`, **without**:
+- Feature names (row 1)
+- Feature types (row 2)
+
+#### 3. `classification_data.txt`
+
+Same format as `test_data.txt`, **without**:
+- First column (class labels)
+
+---
+
+## 📤 Output Files
+
+Output `.txt` files will be automatically generated in the same folder (`C:\\cbmLAD`) during program execution.
+"""
+
+# Saving the README file
+readme_path = "/mnt/data/README_cbmLAD.md"
+with open(readme_path, "w", encoding="utf-8") as file:
+    file.write(readme_content)
+
+readme_path
+
+
+
+
