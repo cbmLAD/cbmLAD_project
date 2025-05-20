@@ -83,7 +83,7 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 
 - Each class is compared **against one other class at a time**.
 - Patterns are generated for each binary comparison:
-  - \(PP1vs2, PP2vs1, PP1vs3, PP3vs1, \ldots\)
+  - $P_{1v2}, P_{2v1}, P_{1v3}, P_{3v1}, \\ldots$
 
 ![OVO Illustration](OVO.png)
 
