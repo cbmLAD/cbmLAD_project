@@ -4,36 +4,37 @@
 
 ## 🔧 Core Components
 
-- **Boolean Logic**: Binarization and threshold generation of features.
-- **Combinatorics**: Pattern selection from binary data.
-- **Optimization**: Uses Ant Colony Optimization (ACO) to find optimal pattern sets.
+- **Boolean Logic**: Binarization of features and cut points generation.
+- **Combinatorics**: Patterns' generation from binary data.
+- **Optimization**: Uses Ant Colony Optimization (ACO) to find the optimal support set.
 
 ---
 
-## 📁 CBM–LAD Instructions
+## 📁 cbmLAD Instructions
 
 ### 📂 Directory Structure
 
 A folder named `cbmLAD` must be created on the **C drive**: `C:\\cbmLAD`
 
 This directory will include:
-- Input files (3 required `.txt` files)
+-  3 Input files (.txt` files)
 - Output files (automatically generated during execution)
 
 ### 📥 Input Files
 
 Three input files must be created before running the software:
 
-#### 1. `raw_data.txt`
+#### 1. `raw data.txt`
 
 **Columns:**
-- Column 1: Class labels (must not include `0`)
+- Column 1: Class labels 1, 2, 3,... (must not include `0`)
 - Remaining columns: Feature values  
   (Nominal values must be **converted to discrete integers**)
 
 **Rows:**
 - Row 1: Feature names
-- Row 2: Feature types:
+- Row 2: Feature types: Nominal, binary, or numerical
+- Row 3: sensors' readings or data
 
 | Type | Description |
 |------|-------------|
@@ -48,7 +49,7 @@ Three input files must be created before running the software:
 - Class labels **must not include 0**.  
   Example: If original classes are `{0, 1, 2}`, change to `{1, 2, 3}`.
 
-#### 2. `test_data.txt`
+#### 2. `test data.txt`
 
 Same format as `raw_data.txt`, **without**:
 - Feature names (row 1)
@@ -72,7 +73,7 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
-- Patterns are generated per class as:
+- For exampl, patterns are generated per class as:
   - $P_1^+, P_1^-, P_2^+, P_2^-, \\ldots$
     
 ![OVA Illustration](OVA.png)
@@ -82,7 +83,7 @@ cbmLAD supports two major strategies for handling **multiclass** problems:
 ### 🔵 One-vs-One (OVO)
 
 - Each class is compared **against one other class at a time**.
-- Patterns are generated for each binary comparison:
+- For example, patterns are generated for each binary comparison:
   - $P_{1v2}, P_{2v1}, P_{1v3}, P_{3v1}, \\ldots$
 
 ![OVO Illustration](OVO.png)
