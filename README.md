@@ -68,7 +68,12 @@ Output `.txt` files will be automatically generated in the same folder (`C:\\cbm
 
 ## 🧠 Pattern Generation Methods: One-vs-All (OVA) and One-vs-One (OVO)
 
-cbmLAD supports two major strategies for handling **multiclass** problems:
+cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OvO)** and **One-vs-All (OvA)**.
+For a given K-class dataset:
+  - **OvO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
+  - **OvA** assumes the existence of a single separator between each class $C_i$ and all other classes, and builds **K binary classifiers**.
+
+For example **k=3**:
 
 ### 🟢 One-vs-All (OVA)
 
