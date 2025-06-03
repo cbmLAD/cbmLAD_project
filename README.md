@@ -64,9 +64,7 @@ Same format as `test_data.txt`, **without**:
 
 ## 📤 Output Files
 
-Output `.txt` files will be automatically generated in the same folder (`C:\\cbmLAD`) during program execution.
-
-For each operation performed by cbmLAD (training, testing, and classification), specific output files are generated and saved in the working directory `C:\\cbmLAD`.
+For each operation performed by cbmLAD (training, testing, and classification), specific output `.txt` files are generated and saved in the working directory `C:\\cbmLAD`.
 
 ### 🔧 4.1 Training Results
 
@@ -81,7 +79,6 @@ The training operation produces the following files:
 - **Pattern matrix.txt**: Binary matrix representing which observations are covered by which patterns.
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
 - **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The internal order of classes is determined by the sequence cbmLAD uses during processing.
----
 
 ### 🧪 4.2 Testing Results
 
@@ -93,7 +90,6 @@ After the testing process, cbmLAD generates:
   - The overall accuracy of the test predictions.  
 - **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
 - **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns. 
----
 
 ### 🧮 4.3 Classification Results
 
@@ -103,6 +99,8 @@ When performing classification (on new, unlabeled data), cbmLAD generates:
   - Predicted class labels for new observations.
   - Discriminant values for each possible class.
   - The patterns used to justify each classification.
+
+---
 
 ## 🧠 Pattern Generation Methods: One-vs-All (OVA) and One-vs-One (OVO)
 
