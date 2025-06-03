@@ -84,7 +84,7 @@ The training operation produces the following files:
 
 After the testing process, cbmLAD generates:
 
-- **testing result.txt**: This file contains:
+- **Testing results.txt**: This file contains:
   - The predicted class for each test observation.
   - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
   - The overall accuracy of the test predictions.  
@@ -95,7 +95,7 @@ After the testing process, cbmLAD generates:
 
 When performing classification (on new, unlabeled data), cbmLAD generates:
 
-- **classification result.txt**: This file provides:
+- **Classification results.txt**: This file provides:
   - Predicted class labels for new observations.
   - Discriminant values for each possible class.
   - The patterns used to justify each classification.
