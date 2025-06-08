@@ -104,7 +104,7 @@ The training operation produces the following files:
   
 - **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first.
 
-<img src="Images/trainingresults.png" style="width:50%;"> 
+<img src="Images/trainingresults.png" style="width:60%;"> 
 
 ### 🧪 4.2 Testing Results
 
