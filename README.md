@@ -113,7 +113,7 @@ After the testing process, cbmLAD generates:
   - The predicted class for each test observation.
   - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
   - The overall accuracy of the test predictions.
-  - 
+    
 This is an example of the testing results file.
 
 ![test results file](Images/testresults.png)
