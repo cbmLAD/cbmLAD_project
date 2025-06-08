@@ -92,7 +92,7 @@ The training operation produces the following files:
 
 - **Coverage of Multi-Class Patterns.txt**: Indicates the observations in which the patterns generated for each class were found and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
 
-<img src="Images/coveragepatterns.png" style="width:40%;"> 
+<img src="Images/coveragepatterns.png" style="width:45%;"> 
 
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
 
