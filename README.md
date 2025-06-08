@@ -173,7 +173,7 @@ For example **k=3**:
 
 ### 🔎 Notes
 
-- **Binary classes:** Only the **OVA** method is used.
+- **Binary classes:** The **OVA** method is used.
 - **Multiclass:** Both **OVA** and **OVO** methods can be applied.
 
 To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
