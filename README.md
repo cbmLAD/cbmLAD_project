@@ -51,7 +51,7 @@ Three input files must be created before running the software:
 
 This is an example of the raw data file.
 
-<img src="Images/rawdata.png" style="width:50%;"> 
+<img src="Images/rawdata.png" style="width:20%;"> 
 
 #### 2. `test data.txt`
 
