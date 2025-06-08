@@ -104,8 +104,8 @@ The training operation produces the following files:
 
 ![cutpoints file](Images/cutpoints.png)
   
-- **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first. In this example, Class 2 was visited first. Therefore, it was processed first, and it appears first in the file.
-
+- **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first.
+  
 ![training results file](Images/trainingresults.png)
 
 ### 🧪 4.2 Testing Results
