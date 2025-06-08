@@ -70,7 +70,7 @@ Same format as `test_data.txt`, **without**:
 
 This is an example of a classification data file.
 
-<img src="Images/classificationdata.png" style="width:40%;"> 
+<img src="Images/classificationdata.png" style="width:35%;"> 
 ---
 
 ## 📤 Output Files
