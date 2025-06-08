@@ -61,7 +61,7 @@ Same format as `raw_data.txt`, **without**:
 
 This is an example of the test data file.
 
-![test data file](Images/testdata.png)
+<img src="Images/testdata" style="width:40%;"> 
 
 #### 3. `classification_data.txt`
 
@@ -70,8 +70,7 @@ Same format as `test_data.txt`, **without**:
 
 This is an example of a classification data file.
 
-![classification data file](Images/classificationdata.png)
-
+<img src="Images/classificationdata" style="width:40%;"> 
 ---
 
 ## 📤 Output Files
