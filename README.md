@@ -183,4 +183,4 @@ To perform training, classification, and testing using these methods, use the **
 |--------------------|----------------------------|----------------------------|
 | **Training**       | OVA_training.exe           | OVO_training.exe           |
 | **Testing**        | OVA_testing.exe            | OVO_testing.exe            |
-| **Classification** | OVA_Classification.exe     | OVO_Classification.exe     |
+| **Classification** | OVA_classification.exe     | OVO_classification.exe     |
