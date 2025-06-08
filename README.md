@@ -59,10 +59,18 @@ Same format as `raw_data.txt`, **without**:
 - Feature names (row 1)
 - Feature types (row 2)
 
+This is an example of the test data file.
+
+![test data file](Images/testdata.png)
+
 #### 3. `classification_data.txt`
 
 Same format as `test_data.txt`, **without**:
 - First column (class labels)
+
+This is an example of a classification data file.
+
+![classification data file](Images/classificationdata.png)
 
 ---
 
