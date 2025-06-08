@@ -84,11 +84,11 @@ The training operation produces the following files:
 - **Duplicated and Ignored Observations.txt**: Identifies and excludes duplicated or invalid rows.
 - **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight. The following figure shows an example.
 
-<img src="Images/Caracpatterns.png" style="width:40%;"> 
+<img src="Images/Caracpatterns.png" style="width:45%;"> 
 
 - **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
 
-<img src="Images/binarydata.png" style="width:40%;"> 
+<img src="Images/binarydata.png" style="width:45%;"> 
 
 - **Coverage of Multi-Class Patterns.txt**: Indicates the observations in which the patterns generated for each class were found and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
 
