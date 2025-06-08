@@ -83,14 +83,13 @@ For each operation performed by cbmLAD (training, testing, and classification), 
 The training operation produces the following files:
 
 - **Class names.txt**: Lists all class labels present in the dataset.
-- **Duplicate and ignored observations.txt**: Identifies and excludes duplicated or invalid rows.
+- **Duplicated and Ignored Observations.txt**: Identifies and excludes duplicated or invalid rows.
 - **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight.
-- **Pattern matrix.txt**: Binary matrix representing which observations are covered by which patterns.
 - **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
 
 ![binarydata file](Images/binarydata.png)
 
-- **Coverage of Multi-Class Patterns.txt**: Indicates which observations are covered by each pattern and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
+- **Coverage of Multi-Class Patterns.txt**: Indicates the observations in which the patterns generated for each class were found and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
 
 ![coveragepatterns file](Images/coveragepatterns.png)
 
@@ -114,7 +113,7 @@ After the testing process, cbmLAD generates:
   - The predicted class for each test observation.
   - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
   - The overall accuracy of the test predictions.
-  - 
+    
 This is an example of the testing results file.
 
 ![test results file](Images/testresults.png)
@@ -139,14 +138,14 @@ This is an example of the classification results file.
 
 ## 🧠 Pattern Generation Methods: One-vs-All (OVA) and One-vs-One (OVO)
 
-cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OvO)** and **One-vs-All (OvA)**.
+cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OVO)** and **One-vs-All (OVA)**.
 For a given K-class dataset:
-  - **OvO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
-  - **OvA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
+  - **OVO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
+  - **OVA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
 
 For example **k=3**:
 
-### 🟢 One-vs-All (OvA)
+### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
 - Patterns are generated per class as:
@@ -156,7 +155,7 @@ For example **k=3**:
 
 ---
 
-### 🔵 One-vs-One (OvO)
+### 🔵 One-vs-One (OVO)
 
 - Each class is compared **against one other class at a time**.
 - Patterns are generated for each binary comparison:
@@ -168,7 +167,14 @@ For example **k=3**:
 
 ### 🔎 Notes
 
-- **Binary classes:** Only the **OvA** method is used.
-- **Multiclass:** Both **OvA** and **OvO** methods can be applied.
+- **Binary classes:** Only the **OVA** method is used.
+- **Multiclass:** Both **OVA** and **OVO** methods can be applied.
 
 To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
+
+
+| **Task Type**      | **OVA (One-vs-All)**       | **OVO (One-vs-One)**       |
+|--------------------|----------------------------|----------------------------|
+| **Training**       | OVA_training.exe           | OVO_training.exe           |
+| **Testing**        | OVA_testing.exe            | OVO_testing.exe            |
+| **Classification** | OVA_Classification.exe     | OVO_Classification.exe     |
