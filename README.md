@@ -50,6 +50,7 @@ Three input files must be created before running the software:
   Example: If original classes are `{0, 1, 2}`, change to `{1, 2, 3}`.
 
 This is an example of the raw data file.
+
 ![Raw data file](Images/rawdata.png)
 
 #### 2. `test data.txt`
