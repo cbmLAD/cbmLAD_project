@@ -51,7 +51,7 @@ Three input files must be created before running the software:
 
 This is an example of the raw data file.
 
-![Raw data file](Images/rawdata.png)
+![Raw data file](Images/rawdata.png){ width=50% }
 
 #### 2. `test data.txt`
 
