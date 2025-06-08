@@ -152,7 +152,7 @@ For example **k=3**:
 - Patterns are generated per class as:
   - $P_1^+, P_1^-, P_2^+, P_2^-, \\ldots$
     
-![OVA Illustration](OVA.png)
+![OVA Illustration](Images/OVA.png)
 
 ---
 
@@ -162,7 +162,7 @@ For example **k=3**:
 - Patterns are generated for each binary comparison:
   - $P_{1v2}, P_{2v1}, P_{1v3}, P_{3v1}, \\ldots$
 
-![OVO Illustration](OVO.png)
+![OVO Illustration](Images/OVO.png)
 
 ---
 
