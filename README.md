@@ -82,15 +82,29 @@ For each operation performed by cbmLAD (training, testing, and classification), 
 
 The training operation produces the following files:
 
-- **Binary data.txt**: Contains the binarized version of the input data after applying the cut points to numeric and nominal features.
 - **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight.
 - **Class names.txt**: Lists all class labels present in the dataset.
-- **Coverage of Multi-Class Patterns.txt**: Indicates which observations are covered by each pattern and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
-- **Cut points.txt**: Shows the thresholds (cut points) used to convert numeric and nominal values into binary form.
 - **Duplicate and ignored observations.txt**: Identifies and excludes duplicated or invalid rows.
 - **Pattern matrix.txt**: Binary matrix representing which observations are covered by which patterns.
+- **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
+
+![binarydata file](Images/binarydata.png)
+
+- **Coverage of Multi-Class Patterns.txt**: Indicates which observations are covered by each pattern and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
+
+![coveragepatterns file](Images/coveragepatterns.png)
+
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
-- **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The internal order of classes is determined by the sequence cbmLAD uses during processing.
+
+![patterns interpreted file](Images/patternsinterpreted.png)
+
+- **Cut points.txt**: Shows the thresholds (cut points) used to convert numeric and nominal values into binary form.
+
+![cutpoints file](Images/cutpoints.png)
+  
+- **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first. In this example, Class 2 was visited first. Therefore, it was processed first, and it appears first in the file.
+
+![training results file](Images/trainingresults.png)
 
 ### 🧪 4.2 Testing Results
 
@@ -101,7 +115,11 @@ After the testing process, cbmLAD generates:
   - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
   - The overall accuracy of the test predictions.  
 - **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
-- **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns. 
+- **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
+
+This is an example of the testing results file.
+
+![test results file](Images/testresults.png)
 
 ### 🧮 4.3 Classification Results
 
@@ -111,6 +129,10 @@ When performing classification (on new, unlabeled data), cbmLAD generates:
   - Predicted class labels for new observations.
   - Discriminant values for each possible class.
   - The patterns used to justify each classification.
+
+This is an example of the classification results file.
+
+![test results file](Images/classificationresults.png)
 
 ---
 
