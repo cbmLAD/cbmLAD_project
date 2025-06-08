@@ -84,7 +84,10 @@ The training operation produces the following files:
 
 - **Class names.txt**: Lists all class labels present in the dataset.
 - **Duplicated and Ignored Observations.txt**: Identifies and excludes duplicated or invalid rows.
-- **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight.
+- **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight. The following figure shows an example.
+
+![Caracpatterns file](Images/Caracpatterns.png)
+
 - **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
 
 ![binarydata file](Images/binarydata.png)
@@ -119,7 +122,13 @@ This is an example of the testing results file.
 ![test results file](Images/testresults.png)
 
 - **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
+  
+![confusionmatrix file](Images/confusionmatrix.png)
+
 - **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
+
+![confusedobs file](Images/confusedobs.png)
+
 
 ### 🧮 4.3 Classification Results
 
