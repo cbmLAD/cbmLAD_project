@@ -139,14 +139,14 @@ This is an example of the classification results file.
 
 ## 🧠 Pattern Generation Methods: One-vs-All (OVA) and One-vs-One (OVO)
 
-cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OvO)** and **One-vs-All (OvA)**.
+cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OVO)** and **One-vs-All (OVA)**.
 For a given K-class dataset:
-  - **OvO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
-  - **OvA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
+  - **OVO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
+  - **OVA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
 
 For example **k=3**:
 
-### 🟢 One-vs-All (OvA)
+### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
 - Patterns are generated per class as:
@@ -156,7 +156,7 @@ For example **k=3**:
 
 ---
 
-### 🔵 One-vs-One (OvO)
+### 🔵 One-vs-One (OVO)
 
 - Each class is compared **against one other class at a time**.
 - Patterns are generated for each binary comparison:
@@ -168,8 +168,8 @@ For example **k=3**:
 
 ### 🔎 Notes
 
-- **Binary classes:** Only the **OvA** method is used.
-- **Multiclass:** Both **OvA** and **OvO** methods can be applied.
+- **Binary classes:** Only the **OVA** method is used.
+- **Multiclass:** Both **OVA** and **OVO** methods can be applied.
 
 To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
 
