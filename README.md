@@ -83,14 +83,13 @@ For each operation performed by cbmLAD (training, testing, and classification), 
 The training operation produces the following files:
 
 - **Class names.txt**: Lists all class labels present in the dataset.
-- **Duplicate and ignored observations.txt**: Identifies and excludes duplicated or invalid rows.
+- **Duplicated and Ignored Observations.txt**: Identifies and excludes duplicated or invalid rows.
 - **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight.
-- **Pattern matrix.txt**: Binary matrix representing which observations are covered by which patterns.
 - **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
 
 ![binarydata file](Images/binarydata.png)
 
-- **Coverage of Multi-Class Patterns.txt**: Indicates which observations are covered by each pattern and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
+- **Coverage of Multi-Class Patterns.txt**: Indicates the observations in which the patterns generated for each class were found and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
 
 ![coveragepatterns file](Images/coveragepatterns.png)
 
