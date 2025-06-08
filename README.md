@@ -71,7 +71,6 @@ Same format as `test_data.txt`, **without**:
 This is an example of a classification data file.
 
 <img src="Images/classificationdata.png" style="width:35%;"> 
----
 
 ## 📤 Output Files
 
@@ -85,27 +84,27 @@ The training operation produces the following files:
 - **Duplicated and Ignored Observations.txt**: Identifies and excludes duplicated or invalid rows.
 - **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight. The following figure shows an example.
 
-![Caracpatterns file](Images/Caracpatterns.png)
+<img src="Images/Caracpatterns.png" style="width:40%;"> 
 
 - **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
 
-![binarydata file](Images/binarydata.png)
+<img src="Images/binarydata.png" style="width:40%;"> 
 
 - **Coverage of Multi-Class Patterns.txt**: Indicates the observations in which the patterns generated for each class were found and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
 
-![coveragepatterns file](Images/coveragepatterns.png)
+<img src="Images/coveragepatterns.png" style="width:40%;"> 
 
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
 
-![patterns interpreted file](Images/patternsinterpreted.png)
+<img src="Images/patternsinterpreted.png" style="width:40%;"> 
 
 - **Cut points.txt**: Shows the thresholds (cut points) used to convert numeric and nominal values into binary form.
 
-![cutpoints file](Images/cutpoints.png)
+<img src="Images/cutpoints.png" style="width:40%;"> 
   
 - **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first.
-  
-![training results file](Images/trainingresults.png)
+
+<img src="Images/trainingresults.png" style="width:40%;"> 
 
 ### 🧪 4.2 Testing Results
 
@@ -118,16 +117,15 @@ After the testing process, cbmLAD generates:
     
 This is an example of the testing results file.
 
-![test results file](Images/testresults.png)
+<img src="Images/testresults.png" style="width:40%;"> 
 
 - **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
-  
-![confusionmatrix file](Images/confusionmatrix.png)
+
+<img src="Images/confusionmatrix.png" style="width:40%;"> 
 
 - **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
 
-![confusedobs file](Images/confusedobs.png)
-
+<img src="Images/confusedobs.png" style="width:40%;"> 
 
 ### 🧮 4.3 Classification Results
 
@@ -140,7 +138,7 @@ When performing classification (on new, unlabeled data), cbmLAD generates:
 
 This is an example of the classification results file.
 
-![test results file](Images/classificationresults.png)
+<img src="Images/classificationresults.png" style="width:40%;"> 
 
 ---
 
