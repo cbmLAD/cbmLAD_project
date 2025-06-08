@@ -113,13 +113,14 @@ After the testing process, cbmLAD generates:
 - **Testing results.txt**: This file contains:
   - The predicted class for each test observation.
   - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
-  - The overall accuracy of the test predictions.  
-- **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
-- **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
-
+  - The overall accuracy of the test predictions.
+  - 
 This is an example of the testing results file.
 
 ![test results file](Images/testresults.png)
+
+- **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
+- **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
 
 ### 🧮 4.3 Classification Results
 
