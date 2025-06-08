@@ -172,3 +172,10 @@ For example **k=3**:
 - **Multiclass:** Both **OvA** and **OvO** methods can be applied.
 
 To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
+
+
+| **Task Type**      | **OVA (One-vs-All)**       | **OVO (One-vs-One)**       |
+|--------------------|----------------------------|----------------------------|
+| **Training**       | OVA_training.exe           | OVO_training.exe           |
+| **Testing**        | OVA_testing.exe            | OVO_testing.exe            |
+| **Classification** | OVA_Classification.exe     | OVO_Classification.exe     |
