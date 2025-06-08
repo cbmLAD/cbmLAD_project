@@ -96,15 +96,15 @@ The training operation produces the following files:
 
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
 
-<img src="Images/patternsinterpreted.png" style="width:40%;"> 
+<img src="Images/patternsinterpreted.png" style="width:35%;"> 
 
 - **Cut points.txt**: Shows the thresholds (cut points) used to convert numeric and nominal values into binary form.
 
-<img src="Images/cutpoints.png" style="width:40%;"> 
+<img src="Images/cutpoints.png" style="width:35%;"> 
   
 - **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first.
 
-<img src="Images/trainingresults.png" style="width:40%;"> 
+<img src="Images/trainingresults.png" style="width:45%;"> 
 
 ### 🧪 4.2 Testing Results
 
@@ -121,11 +121,11 @@ This is an example of the testing results file.
 
 - **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
 
-<img src="Images/confusionmatrix.png" style="width:40%;"> 
+<img src="Images/confusionmatrix.png" style="width:35%;"> 
 
 - **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
 
-<img src="Images/confusedobs.png" style="width:40%;"> 
+<img src="Images/confusedobs.png" style="width:35%;"> 
 
 ### 🧮 4.3 Classification Results
 
