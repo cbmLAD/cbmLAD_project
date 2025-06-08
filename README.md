@@ -96,7 +96,7 @@ The training operation produces the following files:
 
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
 
-<img src="Images/patternsinterpreted.png" style="width:35%;"> 
+<img src="Images/patternsinterpreted.png" style="width:30%;"> 
 
 - **Cut points.txt**: Shows the thresholds (cut points) used to convert numeric and nominal values into binary form.
 
@@ -104,7 +104,7 @@ The training operation produces the following files:
   
 - **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first.
 
-<img src="Images/trainingresults.png" style="width:45%;"> 
+<img src="Images/trainingresults.png" style="width:50%;"> 
 
 ### 🧪 4.2 Testing Results
 
