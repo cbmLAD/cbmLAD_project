@@ -51,7 +51,7 @@ Three input files must be created before running the software:
 
 This is an example of the raw data file.
 
-![Raw data file](Images/rawdata.png)
+<img src="Images/rawdata.png" style="width:40%;"> 
 
 #### 2. `test data.txt`
 
@@ -61,7 +61,7 @@ Same format as `raw_data.txt`, **without**:
 
 This is an example of the test data file.
 
-![test data file](Images/testdata.png)
+<img src="Images/testdata.png" style="width:40%;"> 
 
 #### 3. `classification_data.txt`
 
@@ -70,9 +70,7 @@ Same format as `test_data.txt`, **without**:
 
 This is an example of a classification data file.
 
-![classification data file](Images/classificationdata.png)
-
----
+<img src="Images/classificationdata.png" style="width:35%;"> 
 
 ## 📤 Output Files
 
@@ -86,27 +84,27 @@ The training operation produces the following files:
 - **Duplicated and Ignored Observations.txt**: Identifies and excludes duplicated or invalid rows.
 - **Characteristics of the generated patterns.txt**: Summarizes details about each generated pattern, such as coverage, relative prevalence, and weight. The following figure shows an example.
 
-![Caracpatterns file](Images/Caracpatterns.png)
+<img src="Images/Caracpatterns.png" style="width:45%;"> 
 
 - **Binary data.txt**: This file includes the binary attributes that resulted from the binarization process. The following figure shows an example. 
 
-![binarydata file](Images/binarydata.png)
+<img src="Images/binarydata.png" style="width:45%;"> 
 
 - **Coverage of Multi-Class Patterns.txt**: Indicates the observations in which the patterns generated for each class were found and includes their weights. Patterns with high weights cover more observations, thus have more explanatory power than patterns with low weights.
 
-![coveragepatterns file](Images/coveragepatterns.png)
+<img src="Images/coveragepatterns.png" style="width:45%;"> 
 
 - **Patterns interpreted.txt**: Provides a readable representation of patterns using feature names and values, connected by logical AND operations.
 
-![patterns interpreted file](Images/patternsinterpreted.png)
+<img src="Images/patternsinterpreted.png" style="width:30%;"> 
 
 - **Cut points.txt**: Shows the thresholds (cut points) used to convert numeric and nominal values into binary form.
 
-![cutpoints file](Images/cutpoints.png)
+<img src="Images/cutpoints.png" style="width:35%;"> 
   
 - **Results.txt**: The core output file that summarizes the input data and the final patterns for each class, including their weights and coverages. The order of class operations is determined by which class is internally treated by cbmLAD first.
-  
-![training results file](Images/trainingresults.png)
+
+<img src="Images/trainingresults.png" style="width:60%;"> 
 
 ### 🧪 4.2 Testing Results
 
@@ -114,21 +112,44 @@ After the testing process, cbmLAD generates:
 
 - **Testing results.txt**: This file contains:
   - The predicted class for each test observation.
-  - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
+  - The discriminant scores that indicate how strongly the membership of an observation is to one of the classes
   - The overall accuracy of the test predictions.
     
-This is an example of the testing results file.
+This is an example of the testing results file related to binary classification using the OVA method. To clarify the presented information, we explain the results corresponding to the first observation. The values highlighted in blue and red represent the discriminant scores for class 1 and class 2, respectively. Since the discriminant score for class 1 is higher, the observation is predicted as class 1, even though it was originally labeled as class 2.
 
-![test results file](Images/testresults.png)
+Next, we examine the patterns covering this observation. Two patterns are involved, both associated with class 1: pattern [1]1 and pattern [1]2. Their respective weights—0.24 for [1]1 and 0.76 for [1]2—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 1, which corresponds to the discriminant score for class 1. Since no pattern related to class 2 covers this observation, the discriminant score for class 2 is 0. The definitions of these patterns can be found in **Patterns interpreted.txt**.
 
-- **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
-  
-![confusionmatrix file](Images/confusionmatrix.png)
+<img src="Images/testresults.png" style="width:40%;"> 
+
+Another example is provided for a multi-class classification problem using the OVO method. In this case, the target variable consists of four classes. The line labeled Classes scores displays the discriminant scores for each class. Since the highest score corresponds to class 4, the first observation is predicted as belonging to class 4.
+
+The following line lists the patterns that cover this observation. For class 4 specifically, five patterns are involved: [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights—0.947368, 0.782609, 0.217391, 0.666667, and 0.333333—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in **Patterns interpreted.txt**.
+
+- **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of instances correctly and incorrectly classified for each class.
+
+- The rows represent the actual classes.
+
+- The columns represent the predicted classes.
+
+- Each cell shows the count of observations falling into that actual-predicted pair.
+
+Interpretation:
+
+- True Positives (TP): Correct predictions for a specific class (diagonal elements).
+
+- False Positives (FP): Instances incorrectly predicted as a given class (non-diagonal elements in the column).
+
+- False Negatives (FN): Instances of a given class incorrectly predicted as another class (non-diagonal elements in the row).
+
+- True Negatives (TN): Instances correctly rejected as not belonging to the class.
+
+<img src="Images/confusionmatrixelements.png" style="width:35%;"> 
+
+<img src="Images/confusionmatrix.png" style="width:35%;"> 
 
 - **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
 
-![confusedobs file](Images/confusedobs.png)
-
+<img src="Images/confusedobs.png" style="width:35%;"> 
 
 ### 🧮 4.3 Classification Results
 
@@ -136,12 +157,12 @@ When performing classification (on new, unlabeled data), cbmLAD generates:
 
 - **Classification results.txt**: This file provides:
   - Predicted class labels for new observations.
-  - Discriminant values for each possible class.
+  - Discriminant scores for each possible class.
   - The patterns used to justify each classification.
 
 This is an example of the classification results file.
 
-![test results file](Images/classificationresults.png)
+<img src="Images/classificationresults.png" style="width:40%;"> 
 
 ---
 
@@ -152,13 +173,16 @@ For a given K-class dataset:
   - **OVO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
   - **OVA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
 
-For example **k=3**:
+For example **k=4**:
 
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
-- Patterns are generated per class as:
-  - $P_1^+, P_1^-, P_2^+, P_2^-, \\ldots$
+- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as $P_1$, $P_2$, and $P_3$:
+  - $P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, P_{15}, \ldots)$
+  - $P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, P_{25}, \ldots)$
+  - $P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, P_{35}, \ldots)$
+  - $P_4 = (P_{41}, P_{42}, P_{43}, P_{44}, P_{45}, \ldots)$
     
 ![OVA Illustration](Images/OVA.png)
 
@@ -167,8 +191,8 @@ For example **k=3**:
 ### 🔵 One-vs-One (OVO)
 
 - Each class is compared **against one other class at a time**.
-- Patterns are generated for each binary comparison:
-  - $P_{1v2}, P_{2v1}, P_{1v3}, P_{3v1}, \\ldots$
+ A set of patterns is generated for each binary comparison:
+  - $P_{1v2}, P_{1v3}, P_{1v4}, P_{2v3}, P_{2v4}, P_{3v4}$
 
 ![OVO Illustration](Images/OVO.png)
 
@@ -176,7 +200,7 @@ For example **k=3**:
 
 ### 🔎 Notes
 
-- **Binary classes:** Only the **OVA** method is used.
+- **Binary classes:** The **OVA** method is used.
 - **Multiclass:** Both **OVA** and **OVO** methods can be applied.
 
 To perform training, classification, and testing using these methods, use the **executable files** provided in the `Executable Files` directory.
@@ -186,4 +210,4 @@ To perform training, classification, and testing using these methods, use the **
 |--------------------|----------------------------|----------------------------|
 | **Training**       | OVA_training.exe           | OVO_training.exe           |
 | **Testing**        | OVA_testing.exe            | OVO_testing.exe            |
-| **Classification** | OVA_Classification.exe     | OVO_Classification.exe     |
+| **Classification** | OVA_classification.exe     | OVO_classification.exe     |
