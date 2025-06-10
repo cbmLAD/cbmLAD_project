@@ -112,12 +112,18 @@ After the testing process, cbmLAD generates:
 
 - **Testing results.txt**: This file contains:
   - The predicted class for each test observation.
-  - The discriminant values that indicate how strongly the membership of an observation is to one of the classes
+  - The discriminant scores that indicate how strongly the membership of an observation is to one of the classes
   - The overall accuracy of the test predictions.
     
-This is an example of the testing results file.
+This is an example of the testing results file related to binary classification using the OVA method. To clarify the presented information, we explain the results corresponding to the first observation. The values highlighted in blue and red represent the discriminant scores for class 1 and class 2, respectively. Since the discriminant score for class 1 is higher, the observation is predicted as class 1, even though it was originally labeled as class 2.
+
+Next, we examine the patterns covering this observation. Two patterns are involved, both associated with class 1: pattern [1]1 and pattern [1]2. Their respective weights—0.24 for [1]1 and 0.76 for [1]2—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 1, which corresponds to the discriminant score for class 1. Since no pattern related to class 2 covers this observation, the discriminant score for class 2 is 0. The definitions of these patterns can be found in **Patterns interpreted.txt**.
 
 <img src="Images/testresults.png" style="width:40%;"> 
+
+Another example is provided for a multi-class classification problem using the OVO method. In this case, the target variable consists of four classes. The line labeled Classes scores displays the discriminant scores for each class. Since the highest score corresponds to class 4, the first observation is predicted as belonging to class 4.
+
+The following line lists the patterns that cover this observation. For class 4 specifically, five patterns are involved: [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights—0.947368, 0.782609, 0.217391, 0.666667, and 0.333333—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in **Patterns interpreted.txt**.
 
 - **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
 
@@ -133,7 +139,7 @@ When performing classification (on new, unlabeled data), cbmLAD generates:
 
 - **Classification results.txt**: This file provides:
   - Predicted class labels for new observations.
-  - Discriminant values for each possible class.
+  - Discriminant scores for each possible class.
   - The patterns used to justify each classification.
 
 This is an example of the classification results file.
@@ -149,13 +155,15 @@ For a given K-class dataset:
   - **OVO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
   - **OVA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
 
-For example **k=3**:
+For example **k=4**:
 
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
-- Patterns are generated per class as:
-  - $P_1^+, P_1^-, P_2^+, P_2^-, \\ldots$
+- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as \( P_1 \), \( P_2 \), and \( P_3 \):
+  - \( P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, \ldots) \)
+  - \( P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, \ldots) \)
+  - \( P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, \ldots) \)
     
 ![OVA Illustration](Images/OVA.png)
 
@@ -164,8 +172,10 @@ For example **k=3**:
 ### 🔵 One-vs-One (OVO)
 
 - Each class is compared **against one other class at a time**.
-- Patterns are generated for each binary comparison:
-  - $P_{1v2}, P_{2v1}, P_{1v3}, P_{3v1}, \\ldots$
+- 
+- Set of patterns are generated for each binary comparison:
+  - $P_{1v2}, P_{1v3}, P_{1v4}, P_{2v3}, P_{2v4}, P_{3v4}$
+  - $P_{2v1}, P_{3v1}, P_{4v1}, P_{3v2}, P_{4v2}, P_{4v3}$
 
 ![OVO Illustration](Images/OVO.png)
 
