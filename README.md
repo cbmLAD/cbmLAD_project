@@ -129,27 +129,27 @@ The following line lists the patterns that cover this observation. For class 4 s
 
 - **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of instances correctly and incorrectly classified for each class.
 
-- The rows represent the actual classes.
+  - The rows represent the actual classes.
 
-- The columns represent the predicted classes.
+  - The columns represent the predicted classes.
 
-- Each cell shows the count of observations falling into that actual-predicted pair.
+  - Each cell shows the count of observations falling into that actual-predicted pair.
 
-Interpretation:
+  Interpretation:
 
-- True Positives (TP): Correct predictions for a specific class (diagonal elements).
+  - True Positives (TP): Correct predictions for a specific class (diagonal elements).
 
-- False Positives (FP): Instances incorrectly predicted as a given class (non-diagonal elements in the column).
+  - False Positives (FP): Instances incorrectly predicted as a given class (non-diagonal elements in the column).
 
-- False Negatives (FN): Instances of a given class incorrectly predicted as another class (non-diagonal elements in the row).
+  - False Negatives (FN): Instances of a given class incorrectly predicted as another class (non-diagonal elements in the row).
 
-- True Negatives (TN): Instances correctly rejected as not belonging to the class.
+  - True Negatives (TN): Instances correctly rejected as not belonging to the class.
 
-<img src="Images/confusionmatrixelements.png" style="width:35%;"> 
+  <img src="Images/confusionmatrixelements.png" style="width:35%;"> 
 
-This is an example of confusion matrix results.
+  This is an example of confusion matrix results.
 
-<img src="Images/confusionmatrix.png" style="width:35%;"> 
+  <img src="Images/confusionmatrix.png" style="width:35%;"> 
 
 - **Confused Observations.txt**: Lists specific testing observations that were misclassified or inconsistently covered by patterns.
 
