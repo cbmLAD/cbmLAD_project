@@ -160,6 +160,7 @@ For example **k=4**:
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
+- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as $ P_1 $, $ P_2 $, and $ P_3 $:
   - $ P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, \ldots) $
   - $ P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, \ldots) $
   - $ P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, \ldots) $
@@ -172,9 +173,11 @@ For example **k=4**:
 
 - Each class is compared **against one other class at a time**.
 - 
-- A set of patterns is generated for each binary comparison:
-  - $P_{1v2}, P_{1v3}, P_{1v4}, P_{2v3}, P_{2v4}, P_{3v4}$
-  - $P_{2v1}, P_{3v1}, P_{4v1}, P_{3v2}, P_{4v2}, P_{4v3}$
+- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as \( P_1 \), \( P_2 \), and \( P_3 \):
+
+- \( P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, \ldots) \)
+- \( P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, \ldots) \)
+- \( P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, \ldots) \)
 
 ![OVO Illustration](Images/OVO.png)
 
