@@ -160,10 +160,10 @@ For example **k=4**:
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
-- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as \( P_1 \), \( P_2 \), and \( P_3 \):
-  - \( P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, \ldots) \)
-  - \( P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, \ldots) \)
-  - \( P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, \ldots) \)
+- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as $ P_1 $, $ P_2 $, and $ P_3 $:
+  - $ P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, \ldots) $
+  - $ P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, \ldots) $
+  - $ P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, \ldots) $
     
 ![OVA Illustration](Images/OVA.png)
 
