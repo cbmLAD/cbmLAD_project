@@ -125,6 +125,8 @@ Another example is provided for a multi-class classification problem using the O
 
 The following line lists the patterns that cover this observation. For class 4 specifically, five patterns are involved: [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights—0.947368, 0.782609, 0.217391, 0.666667, and 0.333333—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in **Patterns interpreted.txt**.
 
+<img src="Images/testresultsovo.png" style="width:40%;"> 
+
 - **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of instances correctly and incorrectly classified for each class.
 
 - The rows represent the actual classes.
@@ -144,6 +146,8 @@ Interpretation:
 - True Negatives (TN): Instances correctly rejected as not belonging to the class.
 
 <img src="Images/confusionmatrixelements.png" style="width:35%;"> 
+
+This is an example of confusion matrix results.
 
 <img src="Images/confusionmatrix.png" style="width:35%;"> 
 
@@ -178,7 +182,7 @@ For example **k=4**:
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
-- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as $P_1$, $P_2$, and $P_3$:
+- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as $P_1$, $P_2$, $P_3$, and $P_4$:
   - $P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, P_{15}, \ldots)$
   - $P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, P_{25}, \ldots)$
   - $P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, P_{35}, \ldots)$
