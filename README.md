@@ -119,7 +119,7 @@ This is an example of the testing results file related to binary classification 
 
 Next, we examine the patterns covering this observation. Two patterns are involved, both associated with class 1: pattern [1]1 and pattern [1]2. Their respective weights—0.24 for [1]1 and 0.76 for [1]2—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 1, which corresponds to the discriminant score for class 1. Since no pattern related to class 2 covers this observation, the discriminant score for class 2 is 0. The definitions of these patterns can be found in **Patterns interpreted.txt**.
 
-<img src="Images/testresults.png" style="width:40%;"> 
+<img src="Images/testresultsnew.png" style="width:40%;"> 
 
 Another example is provided for a multi-class classification problem using the OVO method. In this case, the target variable consists of four classes. The line labeled Classes scores displays the discriminant scores for each class. Since the highest score corresponds to class 4, the first observation is predicted as belonging to class 4.
 
@@ -188,7 +188,7 @@ For example **k=4**:
   - $P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, P_{35}, \ldots)$
   - $P_4 = (P_{41}, P_{42}, P_{43}, P_{44}, P_{45}, \ldots)$
     
-![OVA Illustration](Images/OVA.png)
+![OVA Illustration](Images/OVA4.png)
 
 ---
 
@@ -198,7 +198,7 @@ For example **k=4**:
  A set of patterns is generated for each binary comparison:
   - $P_{1v2}, P_{1v3}, P_{1v4}, P_{2v3}, P_{2v4}, P_{3v4}$
 
-![OVO Illustration](Images/OVO.png)
+![OVO Illustration](Images/OVO4.png)
 
 ---
 
