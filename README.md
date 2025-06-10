@@ -125,7 +125,25 @@ Another example is provided for a multi-class classification problem using the O
 
 The following line lists the patterns that cover this observation. For class 4 specifically, five patterns are involved: [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights—0.947368, 0.782609, 0.217391, 0.666667, and 0.333333—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in **Patterns interpreted.txt**.
 
-- **Confusion Matrix.txt**: Displays the confusion matrix summarizing prediction performance during testing. It shows actual vs. predicted class counts.
+- **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of instances correctly and incorrectly classified for each class.
+
+- The rows represent the actual classes.
+
+- The columns represent the predicted classes.
+
+- Each cell shows the count of observations falling into that actual-predicted pair.
+
+Interpretation:
+
+- True Positives (TP): Correct predictions for a specific class (diagonal elements).
+
+- False Positives (FP): Instances incorrectly predicted as a given class (non-diagonal elements in the column).
+
+- False Negatives (FN): Instances of a given class incorrectly predicted as another class (non-diagonal elements in the row).
+
+- True Negatives (TN): Instances correctly rejected as not belonging to the class.
+
+<img src="Images/confusionmatrixelements.png" style="width:35%;"> 
 
 <img src="Images/confusionmatrix.png" style="width:35%;"> 
 
@@ -175,7 +193,6 @@ For example **k=4**:
 - Each class is compared **against one other class at a time**.
  A set of patterns is generated for each binary comparison:
   - $P_{1v2}, P_{1v3}, P_{1v4}, P_{2v3}, P_{2v4}, P_{3v4}$
-  - $P_{2v1}, P_{3v1}, P_{4v1}, P_{3v2}, P_{4v2}, P_{4v3}$
 
 ![OVO Illustration](Images/OVO.png)
 
