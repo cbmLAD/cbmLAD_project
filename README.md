@@ -93,7 +93,7 @@ The training operation produces the following files:
 
 <img src="Images/coveragepatterns.png" style="width:45%;"> 
 
-- **Patterns interpreted.txt**: Provides a readable representation of patterns for each class using feature names and values, connected by logical AND operations.
+- **Patterns interpreted.txt**: Provides a readable representation of patterns for each class using feature names and values, connected by logical AND operation.
 
 <img src="Images/patternsinterpreted.png" style="width:30%;"> 
 
