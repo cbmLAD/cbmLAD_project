@@ -122,7 +122,7 @@ Next, we examine the patterns covering this observation. Two patterns are involv
 
 Another example is provided for a multi-class classification problem using the OVO method. In this case, the target variable consists of four classes. The line labeled **Classes scores** displays the discriminant scores for each class. Since the highest score corresponds to class 4, the first observation is predicted as belonging to class 4.
 
-The following line lists the patterns that cover this observation. For class 4 specifically, five patterns are involved: [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights—0.947368, 0.782609, 0.217391, 0.666667, and 0.333333—are provided in the file named **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in **Patterns interpreted.txt**.
+The following line lists the patterns that cover this observation. For class 4 specifically, the comparison of class 4 with each of the other classes results in five patterns covering this observation : [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights are 0.947368, 0.782609, 0.217391, 0.666667, and 0.333333. They are provided in the file named **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in the file named **Patterns interpreted.txt**.
 
 <img src="Images/testresultsovo.png" style="width:70%;"> 
 
