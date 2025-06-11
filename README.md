@@ -146,7 +146,7 @@ For the highest discriminant score, the following line lists the patterns that c
 
   <img src="Images/confusionmatrixelements.png" style="width:40%;"> 
 
-  This is an example of confusion matrix results.
+  This is an example of two classes' confusion matrix results.
 
   <img src="Images/confusionmatrix.png" style="width:35%;"> 
 
