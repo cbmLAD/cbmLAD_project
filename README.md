@@ -142,7 +142,7 @@ For the highest discriminant score, the following line lists the patterns that c
 
   - False Negatives (FN): Instances that actually belong to Class 1 but were incorrectly predicted as Class 2.
 
-  - True Negatives (TN): Instances that actually belong to Class 2 and were correctly predicted as Class 2 (i.e., correctly not predicted as Class 1).
+  - True Negatives (TN): Instances that actually belong to Class 2 and were correctly predicted as Class 2.
 
   <img src="Images/confusionmatrixelements.png" style="width:40%;"> 
 
