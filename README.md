@@ -174,7 +174,7 @@ This is an example of the classification results file.
 cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OVO)** and **One-vs-All (OVA)**.
 For a given K-class dataset:
   - **OVO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
-  - **OVA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
+  - **OVA** assumes the existence of a single separator between each class $i$ and all other classes combined, and builds **K binary classifiers**.
 
 For example **k=4**:
 
