@@ -111,7 +111,7 @@ After the testing process, cbmLAD generates:
 
 - **Testing results.txt**: This file contains:
   - The predicted class for each test observation.
-  - The discriminant scores that indicate how strongly the membership of an observation is to one of the classes
+  - The discriminant scores that indicate how strongly the membership of an observation is to one of the classes.
   - The overall accuracy of the test predictions.
     
 This is an example of the testing results file related to binary classification using the OVA method. To clarify the presented information, we explain the results corresponding to the first observation. The values highlighted in blue and red represent the discriminant scores for class 1 and class 2, respectively. Since the discriminant score for class 1 is higher, the observation is predicted as class 1, even though it was originally labeled as class 2.
