@@ -126,7 +126,7 @@ For the highest discriminant score, the following line lists the patterns that c
 
 <img src="Images/testresultsovo.png" style="width:70%;"> 
 
-- **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of instances correctly and incorrectly classified for each class.
+- **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of observations correctly and incorrectly classified for each class.
 
   - The rows represent the actual classes.
 
@@ -136,13 +136,13 @@ For the highest discriminant score, the following line lists the patterns that c
 
   Interpretation:
 
-  - True Positives (TP): Instances that actually belong to Class 1 and were correctly predicted as Class 1.
+  - True Positives (TP): observations that actually belong to Class 1 and were correctly predicted as Class 1.
 
-  - False Positives (FP): Instances that actually belong to Class 2 but were incorrectly predicted as Class 1.
+  - False Positives (FP): observations that actually belong to Class 2 but were incorrectly predicted as Class 1.
 
-  - False Negatives (FN): Instances that actually belong to Class 1 but were incorrectly predicted as Class 2.
+  - False Negatives (FN): observations that actually belong to Class 1 but were incorrectly predicted as Class 2.
 
-  - True Negatives (TN): Instances that actually belong to Class 2 and were correctly predicted as Class 2.
+  - True Negatives (TN): observations that actually belong to Class 2 and were correctly predicted as Class 2.
 
   <img src="Images/confusionmatrixelements.png" style="width:40%;"> 
 
@@ -182,10 +182,10 @@ For example **k=4**:
 
 - Each class is compared **against all other classes combined**.
 - A set of patterns is generated for classes 1, 2, 3, and 4, denoted respectively as $P_1$, $P_2$, $P_3$, and $P_4$:
-  - $P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, P_{15}, \ldots)$
-  - $P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, P_{25}, \ldots)$
-  - $P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, P_{35}, \ldots)$
-  - $P_4 = (P_{41}, P_{42}, P_{43}, P_{44}, P_{45}, \ldots)$
+  - $P_1 = (p_{11}, p_{12}, p_{13}, p_{14}, p_{15}, \ldots)$
+  - $P_2 = (p_{21}, p_{22}, p_{23}, p_{24}, p_{25}, \ldots)$
+  - $P_3 = (p_{31}, p_{32}, p_{33}, p_{34}, p_{35}, \ldots)$
+  - $P_4 = (p_{41}, p_{42}, p_{43}, p_{44}, p_{45}, \ldots)$
     
 ![OVA Illustration](Images/OVA4.png)
 
