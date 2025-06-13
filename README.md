@@ -1,6 +1,6 @@
 # cbmLAD: Logical Analysis of Data for Condition-Based Maintenance
 
-**cbmLAD** is a software tool implementing the **Logical Analysis of Data (LAD)** methodology, tailored for **Condition-Based Maintenance** applications. It leverages data pattern mining to detect failure signatures and classify machine conditions from sensor data.
+**cbmLAD** is a software tool implementing the **Logical Analysis of Data (LAD)** methodology, tailored for **Condition-Based Maintenance** applications. It leverages data mining to detect failure patterns and classify machine conditions into two classes of failure and non-failure, or multiple classes of failure type 1, type 2, or type 3,...
 
 ## 🔧 Core Components
 
@@ -16,9 +16,8 @@
 
 A folder named `cbmLAD` must be created on the **C drive**: `C:\\cbmLAD`
 
-This directory will include:
--  3 Input files (.txt` files)
-- Output files (automatically generated during execution)
+In this directory, the user should create three .txt Input files called `raw data.txt`, `test data.txt`, and `classification_data.txt` as described below. 
+Output files are automatically generated during execution.
 
 ### 📥 Input Files
 
@@ -94,7 +93,7 @@ The training operation produces the following files:
 
 <img src="Images/coveragepatterns.png" style="width:45%;"> 
 
-- **Patterns interpreted.txt**: Provides a readable representation of patterns for each class using feature names and values, connected by logical AND operations.
+- **Patterns interpreted.txt**: Provides a readable representation of patterns for each class using feature names and values, connected by logical AND operation.
 
 <img src="Images/patternsinterpreted.png" style="width:30%;"> 
 
@@ -112,22 +111,22 @@ After the testing process, cbmLAD generates:
 
 - **Testing results.txt**: This file contains:
   - The predicted class for each test observation.
-  - The discriminant scores that indicate how strongly the membership of an observation is to one of the classes
+  - The discriminant scores that indicate how strongly the membership of an observation is to one of the classes.
   - The overall accuracy of the test predictions.
     
 This is an example of the testing results file related to binary classification using the OVA method. To clarify the presented information, we explain the results corresponding to the first observation. The values highlighted in blue and red represent the discriminant scores for class 1 and class 2, respectively. Since the discriminant score for class 1 is higher, the observation is predicted as class 1, even though it was originally labeled as class 2.
 
-Next, we examine the patterns covering this observation. Two patterns are involved, both associated with class 1: pattern [1]1 and pattern [1]2. Their respective weights—0.24 for [1]1 and 0.76 for [1]2—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 1, which corresponds to the discriminant score for class 1. Since no pattern related to class 2 covers this observation, the discriminant score for class 2 is 0. The definitions of these patterns can be found in **Patterns interpreted.txt**.
+Next, we examine the patterns covering this observation. Two patterns are involved, both associated with class 1: pattern [1]1 and pattern [1]2. Their respective weights, 0.24 for [1]1 and 0.76 for [1]2, are provided in the file named **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 1, which corresponds to the discriminant score for class 1. Since no pattern related to class 2 covers this observation, the discriminant score for class 2 is 0. The definitions of these patterns can be found in the file named **Patterns interpreted.txt**.
 
-<img src="Images/testresultsnew.png" style="width:40%;"> 
+<img src="Images/testresultsnew.png" style="width:70%;"> 
 
-Another example is provided for a multi-class classification problem using the OVO method. In this case, the target variable consists of four classes. The line labeled Classes scores displays the discriminant scores for each class. Since the highest score corresponds to class 4, the first observation is predicted as belonging to class 4.
+Another example is provided for a multi-class classification problem using the OVO method. In this case, the target variable consists of four classes. The line labeled **Classes scores** displays the discriminant scores for each class. Since the highest score corresponds to class 4, the first observation is predicted as belonging to class 4.
 
-The following line lists the patterns that cover this observation. For class 4 specifically, five patterns are involved: [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights—0.947368, 0.782609, 0.217391, 0.666667, and 0.333333—are provided in **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in **Patterns interpreted.txt**.
+For the highest discriminant score, the following line lists the patterns that cover this observation. For class 4 specifically, the comparison of class 4 with each of the other classes results in five patterns covering this observation : [4V2]1, [4V1]1, [4V1]2, [4V3]1, and [4V3]2. Their respective weights are 0.947368, 0.782609, 0.217391, 0.666667, and 0.333333. They are provided in the file named **Coverage of Multi-Class Patterns.txt**. The sum of these weights is 2.947368, which corresponds to the discriminant score for class 4. The definitions of these patterns can be found in the file named **Patterns interpreted.txt**.
 
-<img src="Images/testresultsovo.png" style="width:40%;"> 
+<img src="Images/testresultsovo.png" style="width:70%;"> 
 
-- **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of instances correctly and incorrectly classified for each class.
+- **Confusion Matrix.txt**: Displays the confusion matrix, which summarizes prediction performance during testing by showing the number of observations correctly and incorrectly classified for each class.
 
   - The rows represent the actual classes.
 
@@ -137,17 +136,17 @@ The following line lists the patterns that cover this observation. For class 4 s
 
   Interpretation:
 
-  - True Positives (TP): Correct predictions for a specific class (diagonal elements).
+  - True Positives (TP): observations that actually belong to Class 1 and were correctly predicted as Class 1.
 
-  - False Positives (FP): Instances incorrectly predicted as a given class (non-diagonal elements in the column).
+  - False Positives (FP): observations that actually belong to Class 2 but were incorrectly predicted as Class 1.
 
-  - False Negatives (FN): Instances of a given class incorrectly predicted as another class (non-diagonal elements in the row).
+  - False Negatives (FN): observations that actually belong to Class 1 but were incorrectly predicted as Class 2.
 
-  - True Negatives (TN): Instances correctly rejected as not belonging to the class.
+  - True Negatives (TN): observations that actually belong to Class 2 and were correctly predicted as Class 2.
 
-  <img src="Images/confusionmatrixelements.png" style="width:35%;"> 
+  <img src="Images/confusionmatrixelements.png" style="width:40%;"> 
 
-  This is an example of confusion matrix results.
+  This is an example of two classes' confusion matrix results.
 
   <img src="Images/confusionmatrix.png" style="width:35%;"> 
 
@@ -175,18 +174,18 @@ This is an example of the classification results file.
 cbmLAD supports two major strategies for handling **multiclass** problems: **One-vs-One (OVO)** and **One-vs-All (OVA)**.
 For a given K-class dataset:
   - **OVO** assumes that there exists a separator between any two classes and builds **K(K−1)/2 binary classifiers**.
-  - **OVA** assumes the existence of a single separator between each class $i$ and all other classes, and builds **K binary classifiers**.
+  - **OVA** assumes the existence of a single separator between each class $i$ and all other classes combined, and builds **K binary classifiers**.
 
 For example **k=4**:
 
 ### 🟢 One-vs-All (OVA)
 
 - Each class is compared **against all other classes combined**.
-- A set of patterns is generated for classes 1, 2, and 3, denoted respectively as $P_1$, $P_2$, $P_3$, and $P_4$:
-  - $P_1 = (P_{11}, P_{12}, P_{13}, P_{14}, P_{15}, \ldots)$
-  - $P_2 = (P_{21}, P_{22}, P_{23}, P_{24}, P_{25}, \ldots)$
-  - $P_3 = (P_{31}, P_{32}, P_{33}, P_{34}, P_{35}, \ldots)$
-  - $P_4 = (P_{41}, P_{42}, P_{43}, P_{44}, P_{45}, \ldots)$
+- A set of patterns is generated for classes 1, 2, 3, and 4, denoted respectively as $P_1$, $P_2$, $P_3$, and $P_4$:
+  - $P_1 = (p_{11}, p_{12}, p_{13}, p_{14}, p_{15}, \ldots)$
+  - $P_2 = (p_{21}, p_{22}, p_{23}, p_{24}, p_{25}, \ldots)$
+  - $P_3 = (p_{31}, p_{32}, p_{33}, p_{34}, p_{35}, \ldots)$
+  - $P_4 = (p_{41}, p_{42}, p_{43}, p_{44}, p_{45}, \ldots)$
     
 ![OVA Illustration](Images/OVA4.png)
 
